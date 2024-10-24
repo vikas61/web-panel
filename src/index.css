@@ -1,0 +1,44 @@
+/* Global Page Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Or any font you prefer */
+}
+
+* {
+  box-sizing: inherit; /* Ensures padding/margin are included in width calculations */
+}
+
+.homepage-container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.movie-details {
+  width: 100%;
+  margin: 0;
+  padding: 20px; /* You can adjust the padding to your liking */
+}
+
+.cast-section {
+  width: 100%;
+  margin: 0 auto; /* Center content if needed */
+  padding: 0 20px; /* Add horizontal padding if desired */
+}
+
+.cast-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px 0;
+}

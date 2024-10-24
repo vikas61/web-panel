@@ -1,0 +1,63 @@
+.movie-details-section {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Movie background section with the background poster */
+.movie-background {
+    background-image: url('path_to_background_poster.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+/* Overlay to make the content readable over the background */
+.movie-details {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Movie poster styling */
+.movie-poster {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Movie information section */
+.movie-info {
+    color: rgb(255, 255, 255);
+}
+
+.movie-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.movie-overview {
+    font-size: 16px;
+}
+
+/* Cast section styling */
+.cast-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cast-list div {
+    margin: 10px;
+    text-align: center;
+}

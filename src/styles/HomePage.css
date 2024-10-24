@@ -1,0 +1,61 @@
+.homepage-container {
+    padding: 2rem;
+}
+  
+.homepage-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+  
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+  
+.movie-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+  
+.movie-poster {
+    width: 100%;
+    height: auto;
+}
+  
+.movie-title {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.movie-rating{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.pagination-controls button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
