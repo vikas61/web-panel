@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import '../styles/SearchResultsPage.css';  // Optional: create a separate CSS file
+import '../styles/SearchResultsPage.css';  
 
 const SearchResultsPage = () => {
     const [movies, setMovies] = useState([]);
